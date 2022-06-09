@@ -1,0 +1,71 @@
+body {
+  width: 610px;
+}
+
+#frmEnquiry {
+  border-top: #f0f0f0 2px solid;
+  background: #faf8f8;
+  padding: 15px 30px;
+}
+
+#frmEnquiry div {
+  margin-bottom: 20px;
+}
+
+#frmEnquiry div label {
+  margin-left: 5px;
+}
+
+.demoInputBox {
+  padding: 10px;
+  border: #f0f0f0 1px solid;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.demoInputBox:focus {
+  outline: none;
+}
+
+.error {
+  background-color: #eb270d;
+  border: #991301 1px solid;
+  padding: 5px 10px;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.success {
+  background-color: #9fd2a1;
+  border: #91bf93 1px solid;
+  padding: 5px 10px;
+  color: #3d503d;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.info {
+  font-size: 0.8em;
+  color: #b8b6b5;
+  letter-spacing: 2px;
+  padding-left: 5px;
+}
+
+.btnAction {
+  background-color: #263327;
+  border: 0;
+  padding: 10px 40px;
+  color: #fff;
+  border: #f0f0f0 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btnAction:focus {
+  outline: none;
+}
+.invalid {
+  background: #fbf2f2;
+  border: #e8e0e0 1px solid;
+}
